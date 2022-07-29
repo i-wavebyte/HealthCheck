@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F4F5F6;
+  color: #2d3436;
+  /*add backgound with white overlay*/
+  background-position: bottom;
+  background-size: cover;
+}
+.App{
+  background-color: #FAFBFC;
+  border-radius: 5px;
+  padding: 24px;
+  box-shadow: 0px 5px 10px 0px rgba(164,164,164,1);
+  max-width: 300px;
+  transform: scale(1.4);
+}
+
+.App h1{
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.7em;
+}
+
+.App li{
+  list-style: none;
+  margin-top: 12px;
+  border-bottom: 1px solid #dfe6e9;
+}
+
+.App li:last-child{
+  border-bottom: none;
+}
+
+.App ul{
+  margin: 0;
+  padding: 0;
+}
+
+.server-status{
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-size: 0.7em;
+  color: #636e72
+}
+
+.server-name{
+  font-weight : 600;
+}
